@@ -223,7 +223,7 @@ class inicio():
             auto_teclado = threading.Thread(target = self.AtualizarTeclado).start()
 
     except:
-        print("algo de errado não esta certo")
+        print("Erro")
 
 autoclick = inicio()
 autoclick.Iniciar()
